@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+
+<h1>Test</h1>
+
+<table>
+<% for(let i = 0; i < results.length; i++) { %>
+<tr>
+	<td><%= results[i].customerNumber %></td>
+	<td><%= results[i].customerName %></td>
+	<td><%= results[i].phone %></td>
+</tr>
+<% } %>
+</table>
+
+</body>
+</html>
